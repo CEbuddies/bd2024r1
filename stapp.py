@@ -19,7 +19,7 @@ def letter2num(letter: str, distance: int):
         return 0
 
 def return_cords(inp: str, targetword = 'Kaufha'):
-    coords = [74, 59, 31, 7, 50, 20]
+    coords = [47, 59, 31, 7, 50, 20]
     exacts = [l for l in targetword]
     distances = [coords[i] - ord(e) for i, e in enumerate(exacts)]
     word = check_str(inp)
